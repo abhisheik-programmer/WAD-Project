@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reciper Signup</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <div class="Header">
+      <h1>JOIN US BY SIGNING UP</h1>
+      <a href="index.html"><button class="Home">Home</button></a>
+      <a href="About.html"><button class="About">About</button></a>
+      <a href="signup.html"><button class="Signup">Sign Up</button></a>
+      <a href="mailto:d.abhisheik1@gmail.com"
+        ><button class="Mailus">Mail us</button></a
+      >
+    </div>
+  </head>
+
+  <body class="Signupbody">
+    <div class="SignupForm">
+      <form action="" class="Sign" method="GET">
+        <h3>SIGN UP</h3>
+        <div>
+          <label class="textlabel" for="email"
+            >Email Id <span class="required">*</span></label
+          >
+          <input class="input" type="email" name="email" id="email" required />
+        </div>
+
+        <div>
+          <label class="textlabel" for="username"
+            >UserName <span class="required">*</span></label
+          >
+          <input
+            class="input"
+            type="text"
+            name="username"
+            id="username"
+            required
+          />
+        </div>
+
+        <div>
+          <label class="textlabel" for="password"
+            >Password <span class="required">*</span></label
+          >
+          <input
+            class="input"
+            type="password"
+            name="password"
+            id="password"
+            minlength="8"
+            placeholder="must be longer than 8 characters"
+          />
+        </div>
+        <div>
+          <label class="textlabel" for="phone"
+            >Phone <span class="required">*</span></label
+          >
+          <input
+            class="input"
+            type="number"
+            name="phone"
+            id="phone"
+            maxlength="10"
+            required
+          />
+        </div>
+        <div>
+          <label class="textlabel" for="DateOfBirth"
+            >D.O.B <span class="required">*</span></label
+          >
+          <input
+            class="input"
+            type="date"
+            name="DateOfBirth"
+            id="DateOfBirth"
+            required
+          />
+        </div>
+
+        <br />
+        <div id="genderr">
+          <label for="Male">Male</label>
+          <input type="radio" name="gender" id="Male" value="Male" />
+
+          <label for="Female">Female</label>
+          <input type="radio" name="gender" id="Female" value="Female" />
+        </div>
+
+        <br />
+        <div>
+          <label for="foodtype"> Choose your Foodtype</label>
+          <select name="foodtype" id="foodtype">
+            <option value=""></option>
+            <option value="Lacto-ovo vegetarian">Lacto-ovo vegetarian</option>
+            <option value="Lacto-vegetarian">Lacto-vegetarian</option>
+            <option value="Vegan">Vegan</option>
+            <option value="Flexitarian">Flexitarian</option>
+            <option value="Pescatarian">Pescatarian</option>
+            <option value="Ovo-vegetarian">Ovo-vegetarian</option>
+          </select>
+        </div>
+        <br />
+
+        <div>
+          <input type="checkbox" name="smsalert" id="smsalert" />
+          <label for="smsalert">SMS Alert</label>
+
+          <input type="checkbox" name="Emailalert" id="Emailalert" />
+          <label for="Emailalert">Emailalert</label>
+        </div>
+        <br />
+        <div class="Registerdiv">
+          <button class="Register" type="Register"  onclick="return false">
+            REGISTER
+          </button>
+        </div>
+      </form>
+
+      <div id="displayy">
+        <p id="message">
+
+        </p>
+      </div>
+    </div>
+
+    <script src="Signup.js"></script>
+  </body>
+
+  <footer class="footer">
+    <h1>THANKS FOR VISITING US</h1>
+  </footer>
+</html>

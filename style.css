@@ -1,0 +1,320 @@
+/* START OF HEADER */
+.Main{
+  background: url("images/pexels-caleb-oquendo-3139343.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Main h2{
+
+  color: white;
+}
+.RecipeList {
+
+  background-color: rgba(237, 178, 178, 0.2);
+  color: white;
+  list-style: inside;
+  padding:  10%;
+  font-size: larger;
+
+  
+}
+.Header {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  
+    border: none;
+  }
+  
+  /* START  CSS OF Index.html(HOME) */
+  
+  /* Start OF HOME BUTTON CODE SNIPPET */
+  .Home {
+    background-color: white;
+    color: rgb(18, 142, 164);
+    border-style: solid;
+    border-color: rgb(18, 142, 164);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-width: 1px;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  
+  .Home:hover {
+    background-color: rgb(18, 142, 164);
+    color: white;
+  }
+  .Home:active {
+    opacity: 0.7;
+  }
+  /* END OF HOME BUTTON CODE SNIPPET */
+  
+  /* START OF  CSS BODY DESIGN OF index.html or HOME Screen */
+  .indexbody {
+    background: url("images\\food-3443871_1920.jpg");
+  }
+  
+  /* BACKGROUND OF CONTENT */
+  .Preparation {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  /* INstructions FONT code */
+  .inst {
+    color: rgb(250, 249, 249);
+    font-size: larger;
+    font-weight: 200px;
+  }
+  
+  
+  /* ORDER NOW BUTTON */
+  .indexbody .Order {
+    background-color: rgb(209, 124, 67);
+    border: none;
+    font-size: larger;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: cursive;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  /* END OF CSS OF Index.html(HOME) */
+  
+  /* START OF CSS of About.html */
+  
+  /* START OF About BUTTON CODE SNIPPET */
+  .About {
+    background-color: white;
+    color: rgb(18, 142, 164);
+    border-style: solid;
+    border-color: rgb(18, 142, 164);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-width: 1px;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  
+  .About:hover {
+    background-color: rgb(18, 142, 164);
+    color: white;
+  }
+  .About:active {
+    opacity: 0.7;
+  }
+  
+  /* END OF About BUTTON CODE SNIPPET */
+  
+  /* START OF CSS BODY DESIGN OF About.html  */
+  
+  .Aboutbody {
+    background: url("images\\pexels-engin-akyurt-1435895.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+  }
+  
+  /* CREATING A THREE COLUMN LAYOUT */
+  .Container {
+    display: flex;
+  }
+  .Container .Para {
+    background-color: rgba(237, 178, 178, 0.2);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(11, 11, 11);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  /* END OF CREATING A THREE COLUMN LAYOUT */
+  /* END OF CSS  BODY DESIGN OF About.html or HOME Screen */
+  /* END OF CSS OF About.html*/
+  
+  /* START OF CSS OF Signup.html */
+  /* SIGN UP BUTTON START */
+  .Signup {
+    background-color: white;
+    color: rgb(18, 142, 164);
+    border-style: solid;
+    border-color: rgb(18, 142, 164);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-width: 1px;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  
+  .Signup:hover {
+    background-color: rgb(18, 142, 164);
+    color: white;
+  }
+  .Signup:active {
+    opacity: 0.7;
+  }
+  
+  /* SIGN UP BUTTON END */
+  
+  /* SIGN UP BODY START */
+  .Signupbody {
+    background: url("images\\pexels-pixabay-326281 (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Sign {
+    color: rgb(249, 247, 247);
+    padding: 20px;
+  
+    margin: 30% 30% 30% 30%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+  }
+  
+  /* FORM START */
+  .SignupForm .Sign h3 {
+    font-weight: 1000px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: fantasy;
+    border: none;
+    text-align: center;
+    color: rgb(18, 142, 164);
+  }
+  
+  .SignupForm .Sign .input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    margin: 0px 0px 5px 0px;
+  }
+  
+  .SignupForm .Sign .input:focus {
+    background-color: rgb(18, 142, 164);
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  /* REgister BUTTON START */
+  .Registerdiv {
+    text-align: center;
+  }
+  .Register {
+    background-color: white;
+    color: rgb(18, 142, 164);
+    border-style: solid;
+    border-color: rgb(18, 142, 164);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-width: 1px;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .Register:hover {
+    background-color: rgb(18, 142, 164);
+    color: white;
+  }
+  .Register:active {
+    opacity: 0.7;
+  }
+  
+   
+  #message{
+    background: white;
+    text-align: center;
+   padding: 10px;
+   margin: 30%;
+   display: none;
+  }
+  /* REGISTER BUTTON END */
+  /* END OF SIGNUP.html */
+  
+  /* Mail Us BUtton */
+  .Mailus {
+    background-color: white;
+    color: rgb(18, 142, 164);
+    border-style: solid;
+    border-color: rgb(18, 142, 164);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-width: 1px;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .Mailus:hover {
+    background-color: rgb(18, 142, 164);
+    color: white;
+  }
+  .Mailus:active {
+    opacity: 0.7;
+  }
+  
+  .footer {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  
+    border: none;
+  }
+  
+  /* .Food {
+    vertical-align: bottom;
+  
+    width: 600px;
+    height: auto;
+    /* border: 3px; 
+    padding: 15px;
+    /* border-color: rgb(221, 33, 33); */
+  
+  /* .SignupForm {
+    /* background-color: rgb(18, 142, 164); */
+  
+  /* border-style: hidden; */
+  /* color: black; */
+  
+  /*  padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px; */
+  
+  /* .SignupForm .textlabel {
+    /* display: block;  
+  } */
+  
+  /*  
+       */
+  
